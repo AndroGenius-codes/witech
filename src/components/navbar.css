@@ -1,0 +1,32 @@
+header {
+
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+ul {
+     
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.socialMediaLinks {
+    
+    display: flex;
+    gap: 10px;
+
+}
