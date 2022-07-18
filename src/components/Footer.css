@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content {
+    width: 100%;
+    text-align: center;
+}
+.footer-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+}
+.locations {
+    padding: auto;
+    margin: 0;
+}
+.location {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+}
+.location-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: transform 1ms ease-in-out 2ms;
+}
+.location-content:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+    transform: translate(-10px,10px);
+}
+.location-city {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.location-details {
+    width: 250px;
+}
+.location-details p {
+    text-transform: capitalize;
+    margin: 2px 0;
+    width: 100%;
+}
+.location-details p:nth-child(4) {
+    text-transform: lowercase;
+}
